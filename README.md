@@ -1,5 +1,4 @@
-# sing_basic
-Simple interactive novel generator. Basic project
+# Simple interactive novel generator. Basic project
 
 SING. Базовый проект.
 
