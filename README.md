@@ -1,2 +1,2 @@
 # sing_basic
-Simple interactive novel generator. Demo
+Simple interactive novel generator. Basic project
