@@ -15,5 +15,5 @@ SING. Базовый проект.
 
 # Контакты для связи
 
-1. Почта: x_n хатико:) ro.ru
+1. Почта: x_n хатико) ro.ru
 2. NX на Discord-канале ifrus: https://discordapp.com/invite/X86kkzM
