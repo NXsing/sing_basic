@@ -2,6 +2,10 @@
 
 SING. Базовый проект.
 
+Демо-видео:
+
+https://youtu.be/VKieqWdUf4A?t=30
+
 Демка:
 
 https://github.com/NXsing/sing_demo
