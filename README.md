@@ -16,9 +16,9 @@ https://github.com/NXsing/sing_demo
 3. Редактируя main.py и периодически запуская make(который использует интерпретатор Python), генерируется файл HTML/_bytes.js, который содержит квест в байт-коде
 
 ## Требования
-1. Модуль pickle для питона(pip3 install pickle)
+1. Модуль pickle для питона(`pip3 install pickle`)
 2. Сам Python версии 3.5 и выше
-3. Утилита make(пока что движок адаптирован для linux'а)
+3. Утилита make(пока что движок адаптирован для linux'а) `sudo apt-get install make`
 
 ## Об API
 
