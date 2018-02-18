@@ -67,6 +67,12 @@ import pickle
 mem=pickle.load( open( "SOURCE/_bytes.pick", "rb" ) ) # байт-код прочитан
 ```
 
+# todo
+
+0. ~~Демонстрация~~
+1. Видео по написанию простейшего квеста(использованию API, +multiline strings)
+2. Видео по написанию алиасов(img, chain, yt)
+
 ## Контакты для связи
 
 1. Почта: x_n хатико) ro.ru
