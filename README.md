@@ -70,7 +70,7 @@ mem=pickle.load( open( "SOURCE/_bytes.pick", "rb" ) ) # байт-код проч
 # Генератор в QSP
 При запуске Makefile, автоматически генерируется, в том числе, файл qsp.txt.
 
-Для того, чтобы получить файл квеста QSP, qsp.txt нужно передать [утилите txt2gam](http://qsp.su/index.php?option=com_content&task=view&id=52&Itemid=56):
+Для того, чтобы получить файл квеста QSP, нужно передать [утилите txt2gam](http://qsp.su/index.php?option=com_content&task=view&id=52&Itemid=56) файл qsp.txt:
 ```
 txt2gam.exe qsp.txt game.qsp
 ```
