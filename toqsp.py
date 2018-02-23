@@ -18,7 +18,7 @@ print("""
 $lastloc2=$curloc
 $lastloc1=$curloc
 """)
-print("SET CND = 0")
+print("SET CND = 1")
 for V in vVar.keys():
 	if vVar[V]==True:
 		print("SET {} = 1".format(V))
@@ -33,14 +33,14 @@ def IFTRUE(cvar):
 	print("""IF {}=1:
 	SET CND = CND AND 1
 ELSE
-	SET CND = CND AND 0
+	SET CND = 0
 END""".format(cvar))
 
 def IFFALSE(cvar):
 	print("""IF {}=0:
 	SET CND = CND AND 1
 ELSE
-	SET CND = CND AND 0
+	SET CND = 0
 END""".format(cvar))
 
 for i in range(0,len(vRoom)):
@@ -105,6 +105,7 @@ END""".format(A.text,commands))
 	print("-\n")
 	
 import sys
+sys.stdout.write(QSP)
 QSP=QSP.replace("\n","\r\n")
 QSP=QSP.encode('cp1251')
 f=open("qsp.txt","wb")
