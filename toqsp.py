@@ -66,7 +66,7 @@ $lastloc1=$curloc
 		ptotal=""
 		lines=T.text.split("\n")
 		for l in lines:
-			ptotal+="*pl '{}'\n".format(l)
+			ptotal+="*pl '{}'\n".format(l.replace("'",""))
 		
 		print("""IF CND=1:
 	{}
@@ -94,6 +94,8 @@ END""".format(ptotal))
 				commands+="\t\tSET {}=0\n".format(CC.arg)
 			if CC.name=="return":
 				commands+="\t\tGOTO $lastloc2\n"
+			if CC.name=="next":
+				commands+="\t\tGOTO '{}'\n".format(vRoom[i+1].roomname)
 		
 		print("""IF CND=1:
 \tACT '{}':
