@@ -76,6 +76,8 @@ txt2gam.exe qsp.txt game.qsp
 ```
 Полученный файл game.qsp предназначен для запуска в QSP-плеере, его можно редактировать в программе QGen.
 
+[Утилита TXT2GAM](http://qsp.su/index.php?option=com_content&task=view&id=52&Itemid=56)
+
 # todo
 
 0. ~~Демонстрация~~
