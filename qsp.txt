@@ -1,0 +1,94 @@
+#main
+
+$lastloc2=$curloc
+$lastloc1=$curloc
+
+SET CND = 0
+SET m4 = 0
+SET never = 0
+SET always = 1
+GOTO '_rname_ce1f1042274577aaac6683d41fe003b9'
+-
+#_rname_ce1f1042274577aaac6683d41fe003b9
+
+$lastloc2=$lastloc1
+$lastloc1=$curloc
+
+SET CND=1
+IF CND=1:
+	*pl 'Вы находитесь в комнате'
+
+END
+SET CND=1
+IF m4=1:
+	SET CND = CND AND 1
+ELSE
+	SET CND = CND AND 0
+END
+IF CND=1:
+	*pl '<br>Вы здесь уже были'
+
+END
+SET CND=1
+IF CND=1:
+	ACT 'Далее':
+		SET m4=1
+		GOTO 'кухня'
+
+	END
+END
+SET CND=1
+IF m4=1:
+	SET CND = CND AND 1
+ELSE
+	SET CND = CND AND 0
+END
+IF CND=1:
+	ACT '[открыто]На второй этаж':
+		GOTO 'второй этаж'
+
+	END
+END
+-
+
+#кухня
+
+$lastloc2=$lastloc1
+$lastloc1=$curloc
+
+SET CND=1
+IF CND=1:
+	*pl 'Вы находитесь на кухне'
+
+END
+SET CND=1
+IF CND=1:
+	*pl '<br><i>Ничего необычного</i>'
+
+END
+SET CND=1
+IF CND=1:
+	ACT 'Обратно':
+		GOTO $lastloc2
+
+	END
+END
+-
+
+#второй этаж
+
+$lastloc2=$lastloc1
+$lastloc1=$curloc
+
+SET CND=1
+IF CND=1:
+	*pl 'Вы на втором этаже'
+
+END
+SET CND=1
+IF CND=1:
+	*pl '<br>THE END'
+
+END
+-
+
