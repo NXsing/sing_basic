@@ -17,9 +17,9 @@ https://github.com/NXsing/sing_demo
 4. **Запускать** используя index.html
 
 ## Требования
-1. Модуль pickle для питона(`pip3 install pickle`)
-2. Сам Python версии 3.5 и выше
-3. Утилита make(пока что движок адаптирован для linux'а) `sudo apt-get install make`
+1. Модуль **pickle** для питона(`pip3 install pickle`)
+2. Сам **Python** версии 3.5 и выше
+3. Утилита **make**(пока что движок адаптирован для linux'а) `sudo apt-get install make`
 
 ## Об API
 
