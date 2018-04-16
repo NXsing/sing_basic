@@ -6,7 +6,7 @@ SING. Базовый проект.
 
 https://youtu.be/VKieqWdUf4A?t=30
 
-Демка:
+Демо-проект:
 
 https://github.com/NXsing/sing_demo
 
