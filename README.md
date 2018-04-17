@@ -2,13 +2,9 @@
 
 SING. Базовый проект.
 
-Демо-видео:
+Демо-видео: https://youtu.be/VKieqWdUf4A?t=30
 
-https://youtu.be/VKieqWdUf4A?t=30
-
-Демо-проект:
-
-https://github.com/NXsing/sing_demo
+Демо-проект: https://github.com/NXsing/sing_demo
 
 ## Для начала своего проекта
 1. Скачать базовый проект, используя зеленую кнопку "Download" вверху справа, распаковать
