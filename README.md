@@ -64,7 +64,7 @@ import pickle
 mem=pickle.load( open( "SOURCE/_bytes.pick", "rb" ) ) # байт-код прочитан
 ```
 
-# Генератор в QSP
+## Генератор в QSP
 При запуске Makefile, автоматически генерируется, в том числе, файл qsp.txt.
 
 Для того, чтобы получить файл квеста QSP, нужно передать [утилите txt2gam](http://qsp.su/index.php?option=com_content&task=view&id=52&Itemid=56) файл qsp.txt:
@@ -75,7 +75,7 @@ txt2gam.exe qsp.txt game.qsp
 
 Полученный файл game.qsp предназначен для запуска в QSP-плеере, его можно редактировать в программе QGen.
 
-# todo
+## todo
 
 0. ~~Демонстрация~~
 1. Видео по написанию простейшего квеста(использованию API, +multiline strings)
