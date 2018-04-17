@@ -2,9 +2,10 @@
 
 SING. Базовый проект.
 
-Демо-видео: https://youtu.be/VKieqWdUf4A?t=30
-
-Демо-проект: https://github.com/NXsing/sing_demo
+## Требования
+1. **Python** версии 3.5 и выше
+2. **Модуль pickle** для питона(`pip3 install pickle`)
+3. Утилита **make**(пока что движок адаптирован для linux'а) `sudo apt-get install make`
 
 ## Для начала своего проекта
 1. Скачать базовый проект, используя зеленую кнопку "Download" вверху справа, распаковать
@@ -12,10 +13,10 @@ SING. Базовый проект.
 3. **Редактируя main.py** и периодически запуская **make**(который использует интерпретатор Python), генерируется файл HTML/_bytes.js, который содержит квест в байт-коде
 4. **Запускать** используя index.html
 
-## Требования
-1. **Python** версии 3.5 и выше
-2. **Модуль pickle** для питона(`pip3 install pickle`)
-3. Утилита **make**(пока что движок адаптирован для linux'а) `sudo apt-get install make`
+## Демо
+Демо-видео: https://youtu.be/VKieqWdUf4A?t=30
+
+Демо-проект: https://github.com/NXsing/sing_demo
 
 ## Об API
 
